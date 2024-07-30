@@ -1,0 +1,15 @@
+[package]
+name = "foo-verifier"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.60"
+license = "TBD"
+repository = "https://github.com/HorizenLabs/foo-verifier"
+authors = [
+    "Horizen <info@horizen.io>",
+]
+description = "A dummy Rust library to verify proofs"
+keywords = ["crypto", "blockchain", "cryptography", "dummy"]
+
+[dependencies]
+hex = { version = "0.4.3", optional = true }
