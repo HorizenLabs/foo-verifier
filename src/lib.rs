@@ -1,5 +1,7 @@
 // Copyright 2024, The Horizen Foundation
 
+#![no_std]
+
 /// The verification key
 pub type Vk = [u8; 32];
 
